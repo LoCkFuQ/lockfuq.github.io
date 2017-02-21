@@ -1,0 +1,306 @@
+.opn-reg {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.opn-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #626262;
+}
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.section-header {
+  margin-bottom: 5%;
+}
+.section-header h2 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.section-header h2 span {
+  color: #fc7254;
+}
+.section-header p {
+  font-size: 16px;
+}
+header {
+  background: #f5f5f5 url(../img/main-bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 700px;
+  height: 100vh;
+}
+.main-head {
+  margin-top: 7%;
+}
+.main-logo-border {
+  width: 150px;
+  height: 55px;
+  border: 3px solid #706b73;
+  text-align: center;
+  line-height: 49px;
+}
+.main-logo-border p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+  color: #706b73;
+}
+.main-logo-border p span {
+  color: #fc876d;
+}
+.main-nav-bar {
+  position: relative;
+  width: 34px;
+  float: right;
+  height: 55px;
+}
+.main-text {
+  margin-top: 3%;
+  text-align: center;
+}
+.main-text h1 {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.main-text h1 span {
+  color: #fc7254;
+}
+.main-text p {
+  padding-left: 45px;
+  padding-right: 4 5px;
+}
+.main-form {
+  margin-top: 10%;
+  padding: 35px;
+  background-color: #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+}
+.main-form-header {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.main-form-header span {
+  color: #fc7254;
+}
+.main-form-btn {
+  background-color: #fc7254;
+  border: none;
+  padding: 15px 35px;
+  color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 16px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+}
+.main-form-btn span {
+  font-size: 22px;
+}
+.main-form-btn:hover {
+  box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.08);
+}
+.main-form input,
+.main-form textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #706b73;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.line {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 34px;
+  height: 4px;
+  background-color: #706b73;
+  webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  transform: translateY(-2px);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.line::before,
+.line::after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  content: "";
+  width: 34px;
+  height: 4px;
+  background-color: #706b73;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.line::before {
+  -webkit-transform: translateY(-9px);
+  -ms-transform: translateY(-9px);
+  -o-transform: translateY(-9px);
+  transform: translateY(-9px);
+}
+.line::after {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+}
+.process-box {
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  padding-top: 35px;
+}
+.process-box i.fa {
+  font-size: 50px;
+}
+.process-box h4 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.process-box p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.process-box:hover {
+  box-shadow: 0px 0px 35px 0px rgba(20, 20, 21, 0.21);
+}
+.process-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -40%;
+  bottom: -30px;
+  border: none;
+  color: #706b73;
+  padding: 15px;
+  width: 80%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+.process-btn:hover {
+  box-shadow: 0px 6px 14px 0px rgba(20, 20, 21, 0.09);
+}
+.btn-plus {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 16px;
+  height: 2px;
+  display: inline-block;
+  background-color: #706b73;
+}
+.btn-plus:before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 2px;
+  background-color: #706b73;
+  position: absolute;
+  -webkit-transform: rotate(90deg) translateY(8px);
+  -ms-transform: rotate(90deg) translateY(8px);
+  -o-transform: rotate(90deg) translateY(8px);
+  transform: rotate(90deg) translateY(8px);
+}
+.box-tomi {
+  background-color: #4eb2f7;
+}
+.box-koimona {
+  background-color: #c049f8;
+}
+.box-koire {
+  background-color: #817eff;
+}
+.box-lara {
+  background-color: #f74770;
+}
+i.fa-camera-retro {
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.works-box {
+  height: 360px;
+  position: relative;
+}
+.signature {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  text-aline: center;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.signature:hover {
+  opacity: 1;
+}
+.sign p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.sign button {
+  border: none;
+  padding: 15px 35px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #fc7254;
+}
+.works-row {
+  margin-top: 3%;
+}
