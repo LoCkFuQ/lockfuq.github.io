@@ -394,6 +394,9 @@ header #main .main-anchor button {
 #our-services .main-our-services-box-number3 {
   bottom: 155px;
 }
+#recent-works ul {
+  display: none;
+}
 #recent-works .main-recent-works {
   text-align: center;
 }
@@ -417,10 +420,10 @@ header #main .main-anchor button {
 #recent-works .main-recent-works .main-line-1 {
   top: 17px;
   position: relative;
-  margin-left: 470px;
+  margin-left: 40%;
 }
 #recent-works .main-recent-works .main-line-2 {
-  margin-left: 590px;
+  margin-left: 53%;
   position: relative;
   top: 10px;
   margin-bottom: 80px;
@@ -428,7 +431,8 @@ header #main .main-anchor button {
 #recent-works .main-recent-works .main-orange-dot {
   position: relative;
   top: 13px;
-  margin-left: 568px;
+  margin-left: 50%;
+  right: 2.5px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -701,10 +705,10 @@ header #main .main-anchor button {
 #pricing .main-our-pricing .main-line-1 {
   top: 17px;
   position: relative;
-  margin-left: 470px;
+  margin-left: 40%;
 }
 #pricing .main-our-pricing .main-line-2 {
-  margin-left: 590px;
+  margin-left: 53%;
   position: relative;
   top: 10px;
   margin-bottom: 80px;
@@ -712,7 +716,8 @@ header #main .main-anchor button {
 #pricing .main-our-pricing .main-orange-dot {
   position: relative;
   top: 13px;
-  margin-left: 568px;
+  margin-left: 50%;
+  right: 2.5px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1089,10 +1094,10 @@ header #main .main-anchor button {
 #keep-in-touch .main-keep-in-touch .main-line-1 {
   top: 17px;
   position: relative;
-  margin-left: 470px;
+  margin-left: 40%;
 }
 #keep-in-touch .main-keep-in-touch .main-line-2 {
-  margin-left: 590px;
+  margin-left: 53%;
   position: relative;
   top: 10px;
   margin-bottom: 80px;
@@ -1100,7 +1105,8 @@ header #main .main-anchor button {
 #keep-in-touch .main-keep-in-touch .main-orange-dot {
   position: relative;
   top: 13px;
-  margin-left: 568px;
+  margin-left: 50%;
+  right: 2.5px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -2218,5 +2224,19 @@ header #main .main-anchor button {
   }
   #start button {
     margin-top: 10px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+  #static {
+    display: none;
+  }
+  #case-study .main-case-study-section img {
+    position: absolute;
+    left: 580px;
+    top: 35px;
+    z-index: 0;
+  }
+  #recent-works #tabs_container img {
+    width: 49%;
   }
 }

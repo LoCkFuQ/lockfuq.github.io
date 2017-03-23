@@ -413,6 +413,9 @@ header {
 //RECENT-WORKS
 
 #recent-works {
+	ul {
+			display: none;
+	}
 	.main-recent-works {
 		p {
 			color: @grey;
@@ -433,10 +436,10 @@ header {
 		.main-line-1 {
 			top: 17px;
 			position: relative;
-			margin-left: 470px;
+			margin-left: 40%;
 		}
 		.main-line-2 {
-			margin-left: 590px;
+			margin-left: 53%;
 			position: relative;
 			top: 10px;
 			margin-bottom: 80px;
@@ -444,7 +447,8 @@ header {
 		.main-orange-dot {
 			position: relative;
 			top: 13px;
-			margin-left: 568px;
+			margin-left: 50%;
+			right: 2.5px;
 			-webkit-border-radius: 50%;
 			-moz-border-radius: 50%;
 			-ms-border-radius: 50%;
@@ -733,10 +737,10 @@ header {
 		.main-line-1 {
 			top: 17px;
 			position: relative;
-			margin-left: 470px;
+			margin-left: 40%;
 		}
 		.main-line-2 {
-			margin-left: 590px;
+			margin-left: 53%;
 			position: relative;
 			top: 10px;
 			margin-bottom: 80px;
@@ -744,7 +748,8 @@ header {
 		.main-orange-dot {
 			position: relative;
 			top: 13px;
-			margin-left: 568px;
+			margin-left: 50%;
+			right: 2.5px;
 			-webkit-border-radius: 50%;
 			-moz-border-radius: 50%;
 			-ms-border-radius: 50%;
@@ -1118,10 +1123,10 @@ header {
 		.main-line-1 {
 			top: 17px;
 			position: relative;
-			margin-left: 470px;
+			margin-left: 40%;
 		}
 		.main-line-2 {
-			margin-left: 590px;
+			margin-left: 53%;
 			position: relative;
 			top: 10px;
 			margin-bottom: 80px;
@@ -1129,7 +1134,8 @@ header {
 		.main-orange-dot {
 			position: relative;
 			top: 13px;
-			margin-left: 568px;
+			margin-left: 50%;
+			right: 2.5px;
 			-webkit-border-radius: 50%;
 			-moz-border-radius: 50%;
 			-ms-border-radius: 50%;
@@ -2439,6 +2445,30 @@ header {
 	#start {
 		button {
 			margin-top: 10px;
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+	#static {
+		display: none;
+	}
+	#case-study {
+		.main-case-study {
+			&-section {
+				img {
+					position: absolute;
+					left: 580px;
+					top: 35px;
+					z-index: 0;
+				}
+			}
+		}
+	}
+	#recent-works {
+		#tabs_container {
+			img {
+				width: 49%;
+			}
 		}
 	}
 }
